@@ -39,12 +39,12 @@ All images below were shot on Xiaomi Mi A3 & Motorola G5s Plus and edited using 
   <div class="column">
     <img src="/photos/Nor'westers.jpg" style="width:100%">
     <img src="/photos/Empty.jpg" style="width:100%">
-    <img src="/photos/Crepusculum; Crepuscular.jpg" style="width:100%">
     <img src="/photos/Bijoya.jpg" style="width:100%">
     <img src="/photos/Country Roads.jpg" style="width:100%">
   </div>
   <div class="column">
     <img src="/photos/The Evening Pack.jpg" style="width:100%">
+    <img src="/photos/Crepusculum; Crepuscular.jpg" style="width:100%">
     <img src="/photos/Diwali.jpg" style="width:100%">
     <img src="/photos/Old Building.jpg" style="width:100%">
   </div>
