@@ -1,4 +1,4 @@
-Debanik Ray's Website
+Debanik's Website
 <!-- ---
 title: "About"
 permalink: "/about/"
