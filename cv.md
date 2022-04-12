@@ -13,4 +13,6 @@ Thank you.
          
 <hr>
 
-<p><img src="/google-drive.svg" width="13" height="13" style="vertical-align: text-top;"> <a href="https://drive.google.com/file/d/1QQIBNrXcqWErhVVuaSv7YBZbhI8nhDNh/view?usp=sharing"> CV.pdf </a></p>
+<p>
+         <img src="/google-drive.svg" width="13" height="13" style="vertical-align: sub"><a href="https://drive.google.com/file/d/1QQIBNrXcqWErhVVuaSv7YBZbhI8nhDNh/view?usp=sharing">CV.pdf</a>
+</p>
