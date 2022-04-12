@@ -13,4 +13,4 @@ Thank you.
          
 <hr>
 
-[<img src="/google-drive.svg" width="12" height="12" style="vertical-align:middle" vspace="0.5">](https://drive.google.com/file/d/1QQIBNrXcqWErhVVuaSv7YBZbhI8nhDNh/view?usp=sharing)
+[<img src="/google-drive.svg" width="20" height="20"> CV.pdf](https://drive.google.com/file/d/1QQIBNrXcqWErhVVuaSv7YBZbhI8nhDNh/view?usp=sharing)
