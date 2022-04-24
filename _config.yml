@@ -20,11 +20,11 @@ minimal: false             # use a dark header
 
 # Menu
 
-# navigation:                # accepts {file, title, url, icon, sidebaricon}
+navigation:                # accepts {file, title, url, icon, sidebaricon}
 #   - {file: "cv.md", title: "CV"}
 #   - {file: "photos.md", title: "Photos"} 
 #   - {file: "blog.md", title: "Blog"}
-#   - {file: "https://debanikray.github.io/", title: "Home"}
+  - {url: "https://debanikray.github.io/", icon: house-blank title: "Home"}
  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
