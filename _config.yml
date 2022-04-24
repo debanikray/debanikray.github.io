@@ -24,7 +24,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #   - {file: "cv.md", title: "CV"}
 #   - {file: "photos.md", title: "Photos"} 
 #   - {file: "blog.md", title: "Blog"}
-  - {url: "https://debanikray.github.io/", icon: house, sidebaricon: icon: house}
+  - {url: "https://debanikray.github.io/", icon: house, sidebaricon: house}
  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
