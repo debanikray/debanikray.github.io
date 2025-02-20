@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About Me"
+title:
 ---
 
 <!-- Note: Favicon and meta tags should be placed in your global head (e.g., _includes/head.html) -->
