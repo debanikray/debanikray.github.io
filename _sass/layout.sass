@@ -14,6 +14,18 @@ body > header, body > footer
 body > header, body > article, body > footer
   padding: 1.5em
 
+// Updated header styling for a fixed, minimalist menu
+body > header
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  z-index: 1000
+  background: $light
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  // Override default padding for header if desired
+  padding: 1rem 2rem
+
 article header
   margin-bottom: 1.5em
 
@@ -26,3 +38,7 @@ nav
 
 nav a
   margin: .5em 1.2em
+
+// Make the site title bold (assuming it uses the .site-title class)
+.site-title a
+  font-weight: 700
