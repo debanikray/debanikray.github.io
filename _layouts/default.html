@@ -45,14 +45,14 @@
     {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
   {% endif %}
 
-  <header class="site-header">
-    <div class="site-title">
-      <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </div>
-    <nav class="site-nav">
-      {% include menu.html menu=pages %}
-    </nav>
-  </header>
+<header class="site-header">
+  <div class="site-title">
+    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  </div>
+  <nav class="site-nav">
+    {% include menu.html menu=pages %}
+  </nav>
+</header>
 
   {{ content }}
 
