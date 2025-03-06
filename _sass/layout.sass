@@ -1,6 +1,7 @@
 body
   display: flex
   flex-direction: column
+  overflow-x: hidden
 
 // Provide space below the fixed header so content isn't hidden
 article
@@ -46,3 +47,14 @@ nav a
 .site-title a
   font-weight: 700
   font-size: 1.8em
+
+// Mobile-specific adjustments
+@media (max-width: 600px)
+  body > header, body > article, body > footer
+    padding: 1em  // Reduce overall padding on small screens
+  
+  nav
+    margin: 0.5em 0  // Remove negative horizontal margins
+  
+  nav a
+    margin: 0.5em 0.8em  // Adjust individual link spacing if needed
