@@ -24,7 +24,7 @@ navigation:
 external:
   - { title: "Mail", icon: envelope, url: "mailto:debanik09@gmail.com" }
   - { title: "LinkedIn", icon: linkedin-in, url: "https://www.linkedin.com/in/debanik09/" }
-  - { title: "Facebook", icon: facebook, url: "https://facebook.com/debanik.ray" }
+  # - { title: "Facebook", icon: facebook, url: "https://facebook.com/debanik.ray" }
   - { title: "Twitter", icon: twitter, url: "https://twitter.com/bakedrainy" }
 
 comments:
