@@ -5,57 +5,26 @@ body
 article
   flex-grow: 1
 
-// Header & Footer base styling
 body > header, body > footer
   display: flex
+  flex-wrap: wrap
   align-items: center
   justify-content: space-between
 
 body > header, body > article, body > footer
   padding: 1.5em
 
-// Updated header styling for a fixed header with right-aligned navigation
-.site-header
-  display: flex
-  align-items: center
-  justify-content: space-between
+// Updated header styling for a fixed, minimalist menu
+body > header
   position: fixed
   top: 0
   left: 0
   right: 0
-  padding: 1rem 2rem
+  z-index: 1000
   background: $light
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
-  z-index: 1000
-
-// Site Title styling
-.site-title a
-  font-weight: 700
-  font-size: 2.5em
-  text-decoration: none
-  color: $dark
-
-// Navigation styling: ensure the menu is on the right-hand side
-.site-nav
-  margin-left: auto
-
-.site-nav ul
-  display: flex
-  list-style: none
-  margin: 0
-  padding: 0
-
-.site-nav li
-  margin-left: 1.5rem
-
-.site-nav a
-  font-size: 1em
-  text-decoration: none
-  color: $dark
-  transition: color 0.2s
-
-.site-nav a:hover
-  color: $link-color
+  // Override default padding for header if desired
+  padding: 1rem 2rem
 
 article header
   margin-bottom: 1.5em
@@ -63,3 +32,13 @@ article header
 article header h1
   font-size: 1.7em
   margin: 0 0 .1em
+
+nav
+  margin: .5em -1.2em
+
+nav a
+  margin: .5em 1.2em
+
+// Make the site title bold (assuming it uses the .site-title class)
+.site-title a
+  font-weight: 700
