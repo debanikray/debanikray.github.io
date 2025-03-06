@@ -16,9 +16,9 @@ minimal: false             # use a dark header
 # Navigation Menu (appears in the header)
 navigation:
   - { title: "Home", url: "/" }
-  - { title: "CV", file: "cv.md" }
-  - { title: "Photos", file: "photos.md" }
-  - { title: "Blog", file: "blog.md" }
+  # - { title: "CV", file: "cv.md" }
+  # - { title: "Photos", file: "photos.md" }
+  # - { title: "Blog", file: "blog.md" }
 
 # External social links (used in the footer)
 external:
