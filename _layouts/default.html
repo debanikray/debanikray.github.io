@@ -33,6 +33,8 @@
   {% if site.comments.isso_domain and page.layout == "post" %}
     <script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>
   {% endif %}
+  <!-- Updated Font Awesome to version 6.4.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-kuLqN56U17kqU+O54Q1xTrLLI5F7aSFPB6QKYPJgGh94SeexZQ+GPv6EeQdzC3tvpEhm1RCLxwkOHsUGA7sjrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   {% if site.show_sidebar or site.sidebar %}
@@ -45,14 +47,14 @@
     {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
   {% endif %}
 
-<header class="site-header">
-  <div class="site-title">
-    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  </div>
-  <nav class="site-nav">
-    {% include menu.html menu=pages %}
-  </nav>
-</header>
+  <header class="site-header">
+    <div class="site-title">
+      <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
+    <nav class="site-nav">
+      {% include menu.html menu=pages %}
+    </nav>
+  </header>
 
   {{ content }}
 
